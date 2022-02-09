@@ -1,10 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { Switch, Route , useRouteMatch } from 'react-router-dom'
+import Main from './components/Main';
+
 
 function App() {
   return (
     <div>
-      <iframe src="https://example-0123.s3.us-east-2.amazonaws.com/samplevideo.mp4" name="iframe_a" height="800px" width="100%" title="Iframe Example"></iframe>
+            {/* <Switch >
+                <Route  path='/'  exact component={Main }  />
+            </Switch>  */}
+    
+           <Main/>    
     </div>
   );
 }
