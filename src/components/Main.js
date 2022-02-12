@@ -113,7 +113,8 @@ function Main() {
 
                 <nav className="flex flex-jc-sb flex-ai-c container container--pall"  style={{color:'white' , width:'100%'}}>
                     <a href="/" className="header__logo logo">
-                            <img style={{height:'30px'}} src="Swicklogo_V3_3 1.png" type="png"/>
+                          <img style={{height:'30px'}} src="public/Swicklogo_V3_3 1.PNG" alt="Swick-Icon" type="png"/>
+                            
                             <span style={{color:'white'}}><b>Swick</b></span>
                     </a>
 
@@ -155,8 +156,8 @@ function Main() {
                     <div className="hero__text container--pall">
                         <h1>A Simple Coupon Manager</h1>
                         <p>
-                            A clean and simple interface to organize your favourite websites. Open a new
-                            browser tab and see your sites load instantly. Try it for free.
+                            A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                         </p>
                         <a href="#" className="primary-btn btn-blue">Get it on Chrome</a>
                         <a href="#" className="primary-btn btn-smoke">Get it on Firefox</a>
@@ -169,8 +170,8 @@ function Main() {
                     <div className="features__text container--pall">
                         <h2>Features</h2>
                         <p>
-                            Our aim is to make it quick and easy for you to access your favourite websites.
-                            Your bookmarks sync between your devices so you can access them on the go.
+                            Our aim is A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                         </p>
                     </div>
 
@@ -186,8 +187,8 @@ function Main() {
                         <div className="feature__text container--pall">
                             <h3>Bookmark in one click</h3>
                             <p>
-                                Organize your bookmarks however you like. Our simple drag-and-drop interface
-                                gives you complete control over how you manage your favourite sites.
+                                Organize your A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                             </p>
                             <a href="#" className="primary-btn btn-blue">More Info</a>
                         </div>
@@ -199,8 +200,8 @@ function Main() {
                         <div className="feature__text container--pall">
                             <h3>Intelligent Search</h3>
                             <p>
-                                Our powerful search feature will help you find saved sites
-                                in no time at all. No need to trawl through all of your bookmarks.
+                                Our powerful A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                             </p>
                             <a href="#" className="primary-btn btn-blue">More Info</a>
                         </div>
@@ -226,10 +227,8 @@ function Main() {
                     <div className="extension__info container--px">
                         <h1>Download the extension</h1>
                         <p>
-                            We’ve got more browsers in the pipeline.
-                            Please do let us know if you’ve
-                            got a favourite you’d like us to prioritize.
-                        </p>
+                        A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.                        </p>
                     </div>
 
                     <div className="extension__browsers-cards">
@@ -382,7 +381,7 @@ function Main() {
                 <div className="container container--px">
                     <div className="footer__left">
                         <a href="/" className="footer__left--logo logo">
-                        <img style={{height:'30px'}} src="Swicklogo_V3_3 1.png" type="png"/>
+                        <img style={{height:'30px'}} src="public/Swicklogo_V3_3 1.PNG" alt="Swick-Icon" type="png"/>
                             <span><b>Swick</b></span>
                         </a>
 
