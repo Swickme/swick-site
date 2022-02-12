@@ -108,13 +108,13 @@ function Main() {
 
     return (
         <div>
-            <header className="header">
-                <div className="overlay has-fade hide-for-desktop"></div>
+            <header className="header" style={{color:'white' , width:'100%'}}>
+                <div className="overlay has-fade hide-for-desktop"  style={{color:'white' , width:'100%'}}></div>
 
-                <nav className="flex flex-jc-sb flex-ai-c container container--pall">
+                <nav className="flex flex-jc-sb flex-ai-c container container--pall"  style={{color:'white' , width:'100%'}}>
                     <a href="/" className="header__logo logo">
                             <img style={{height:'30px'}} src="Swicklogo_V3_3 1.png" type="png"/>
-                            <span><b>Swick</b></span>
+                            <span style={{color:'white'}}><b>Swick</b></span>
                     </a>
 
                     <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">
@@ -124,10 +124,10 @@ function Main() {
                     </a>
 
                     <div className="header__links hide-for-mobile">
-                        <a href="#">Features</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Contact</a>
-                        <a href="#" className="btn-red">Login</a>
+                        <a style={{color:'white'}} href="#">Features</a>
+                        <a style={{color:'white'}} href="#">Pricing</a>
+                        <a style={{color:'white'}} href="#">Contact</a>
+                        <a style={{color:'white'}} href="#" className="btn-red">Login</a>
                     </div>
                 </nav>
 

@@ -1,9 +1,9 @@
 /* General Styles */
 
 :root {
-    --clr-primary-SoftBlue: hsl(231, 69%, 60%);
+    --clr-primary-SoftBlue: #020841;
     --clr-primary-SoftRed: hsl(0, 94%, 66%);
-    --clr-secondry-VeryDarkBlue: rgba(37, 43, 70, 0.801);
+    --clr-secondry-VeryDarkBlue: rgba(18, 22, 39, 0.801);
     --clr-neutral-White: hsl(0, 0%, 100%);
     --clr-neutral-GrayishBlue: hsl(229, 8%, 60%);
     --clr-neutral-VeryDarkBlue: hsl(229, 31%, 21%);
@@ -209,6 +209,7 @@
   .header {
     position: relative;
     z-index: 1000;
+    color: white;
   }
   
   .overlay {
@@ -224,6 +225,8 @@
   
   .header nav {
     position: relative;
+    color: white;
+    background-color:var(--clr-primary-SoftBlue);
     padding-top: 2rem; /* 32px */
     padding-bottom: 2rem; /* 32px */
   }
