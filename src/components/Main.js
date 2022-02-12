@@ -113,8 +113,8 @@ function Main() {
 
                 <nav className="flex flex-jc-sb flex-ai-c container container--pall">
                     <a href="/" className="header__logo logo">
-                        <i className='bx bxs-bookmark'></i>
-                        <span>Swick</span>
+                            <img style={{height:'30px'}} src="Swicklogo_V3_3 1.png" type="png"/>
+                            <span><b>Swick</b></span>
                     </a>
 
                     <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">
@@ -382,8 +382,8 @@ function Main() {
                 <div className="container container--px">
                     <div className="footer__left">
                         <a href="/" className="footer__left--logo logo">
-                            <i className='bx bxs-bookmark'></i>
-                            <span>bookmark</span>
+                        <img style={{height:'30px'}} src="Swicklogo_V3_3 1.png" type="png"/>
+                            <span><b>Swick</b></span>
                         </a>
 
                         <ul className="footer__left--links">
