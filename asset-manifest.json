@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/swick-site/static/css/main.cc29b223.css",
+    "main.js": "/swick-site/static/js/main.41685c84.js",
+    "static/js/787.8f56dc2f.chunk.js": "/swick-site/static/js/787.8f56dc2f.chunk.js",
+    "index.html": "/swick-site/index.html",
+    "main.cc29b223.css.map": "/swick-site/static/css/main.cc29b223.css.map",
+    "main.41685c84.js.map": "/swick-site/static/js/main.41685c84.js.map",
+    "787.8f56dc2f.chunk.js.map": "/swick-site/static/js/787.8f56dc2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc29b223.css",
+    "static/js/main.41685c84.js"
+  ]
+}
