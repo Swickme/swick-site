@@ -113,7 +113,7 @@ function Main() {
 
                 <nav className="flex flex-jc-sb flex-ai-c container container--pall"  style={{color:'white' , width:'100%'}}>
                     <a href="/" className="header__logo logo">
-                          <img style={{height:'30px'}} src="public/Swicklogo_V3_3 1.PNG" alt="Swick-Icon" type="png"/>
+                          <img style={{height:'30px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
                             
                             <span style={{color:'white'}}><b>Swick</b></span>
                     </a>
@@ -381,7 +381,7 @@ function Main() {
                 <div className="container container--px">
                     <div className="footer__left">
                         <a href="/" className="footer__left--logo logo">
-                        <img style={{height:'30px'}} src="public/Swicklogo_V3_3 1.PNG" alt="Swick-Icon" type="png"/>
+                        <img style={{height:'30px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
                             <span><b>Swick</b></span>
                         </a>
 
