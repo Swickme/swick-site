@@ -1,5 +1,5 @@
 import React from "react";
-
+import Stores from "./stores/Stores";
 import './main.css'
 
 
@@ -125,16 +125,16 @@ function Main() {
                     </a>
 
                     <div className="header__links hide-for-mobile">
-                        <a style={{color:'white'}} href="#">Features</a>
-                        <a style={{color:'white'}} href="#">Pricing</a>
+                        <a style={{color:'white'}} href="#">how it works?</a>
+                        <a style={{color:'white'}} href="#">stores</a>
                         <a style={{color:'white'}} href="#">Contact</a>
                         <a style={{color:'white'}} href="#" className="btn-red">Login</a>
                     </div>
                 </nav>
 
                 <div className="header__menu container--px has-fade hide-for-desktop">
-                    <a href="#">Features</a>
-                    <a href="#">Pricing</a>
+                    <a href="#">how it works?</a>
+                    <a href="#">stores</a>
                     <a href="#">Contact</a>
                     <a href="#">Login</a>
                 </div>
@@ -168,7 +168,7 @@ function Main() {
             <section className="features">
                 <div className="container">
                     <div className="features__text container--pall">
-                        <h2>Features</h2>
+                        <h2>how it works?</h2>
                         <p>
                             Our aim is A clean and simple interface to load your all coupons. Open a new
                             site and see your coupons load instantly. Try it for free.
@@ -232,7 +232,7 @@ function Main() {
                     </div>
 
                     <div className="extension__browsers-cards">
-                        <div className="extension__card">
+                        <div className="extension__card" style={{ border:'5px',borderStyle:'dotted' , borderColor:'orange' }}>
                             <img src="https://k.top4top.io/p_1987t1s2g1.png" alt="Google Chrome Logo"></img>
                             <div className="card__details">
                                 <h3>Add to Chrome</h3>
@@ -264,7 +264,10 @@ function Main() {
                     </div>
                 </div>
             </section>
+            <section className="faqs">
+               <Stores/>
 
+            </section>
             <section className="faqs">
                 <div className="container container--pall">
                     <div className="faqs__info">
