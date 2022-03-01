@@ -107,7 +107,18 @@ function Main() {
     };
 
     return (
-        <div>
+        <>
+        {/* <div style={{ backgroundColor:'#020841' }}>
+       
+                          <img style={{height:'65px' , padding:'10px' , marginTop:'10px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
+                            
+                         <span style={{color:'white' , fontSize:'40px' ,fontFamily:'monospace' }}><b>Swick</b></span>
+                         <span style={{color:'white' , fontSize:'20px' ,fontFamily:'monospace' , marginLeft:'60px'  }}><b>a</b></span>
+                         <span style={{color:'white' , fontSize:'20px' ,fontFamily:'monospace' , marginLeft:'80'  }}><b>b</b></span>
+                         <span style={{color:'white' , fontSize:'20px' ,fontFamily:'monospace' , marginLeft:'600px'  }}><b>c</b></span>
+                 
+        </div> */}
+         <div className="entryClass">
             <header className="header" style={{color:'white' , width:'100%'}}>
                 <div className="overlay has-fade hide-for-desktop"  style={{color:'white' , width:'100%'}}></div>
 
@@ -232,7 +243,7 @@ function Main() {
                     </div>
 
                     <div className="extension__browsers-cards">
-                        <div className="extension__card" style={{ border:'5px',borderStyle:'dotted' , borderColor:'orange' }}>
+                        <div className="extension__card" style={{ border:'5px',borderStyle:'double' , borderColor:'#ED6322' }}>
                             <img src="https://k.top4top.io/p_1987t1s2g1.png" alt="Google Chrome Logo"></img>
                             <div className="card__details">
                                 <h3>Add to Chrome</h3>
@@ -242,7 +253,7 @@ function Main() {
                             <button type="button" className="card__add-btn">Add & Install Extension</button>
                         </div>
 
-                        <div className="extension__card">
+                        <div className="extension__card" style={{ border:'5px',borderStyle:'double' , borderColor:'#ED6322' }}>
                             <img src="https://l.top4top.io/p_1987w0li62.png" alt="Google Chrome Logo"></img>
                             <div className="card__details">
                                 <h3>Add to Firefox</h3>
@@ -252,7 +263,7 @@ function Main() {
                             <button type="button" className="card__add-btn">Add & Install Extension</button>
                         </div>
 
-                        <div className="extension__card">
+                        <div className="extension__card" style={{ border:'5px',borderStyle:'double' , borderColor:'#ED6322' }}>
                             <img src="https://a.top4top.io/p_19874339l3.png" alt="Google Chrome Logo"></img>
                             <div className="card__details">
                                 <h3>Add to Opera</h3>
@@ -389,8 +400,8 @@ function Main() {
                         </a>
 
                         <ul className="footer__left--links">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">how it works?</a></li>
+                            <li><a href="#">stores</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
@@ -405,6 +416,8 @@ function Main() {
             </footer>
 
         </div>
+        </>
+       
     );
 }
 
