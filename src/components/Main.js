@@ -1,8 +1,9 @@
 import React from "react";
 import Stores from "./stores/Stores";
 import './main.css'
-
-
+import Navbar from "./navbar/Navbar";
+import Downloadex from "./navbar/Downloadex";
+import Footer from "./footer/Footer";
 
 function Main() {
 
@@ -119,47 +120,6 @@ function Main() {
                  
         </div> */}
          <div className="entryClass">
-            <header className="header" style={{color:'white' , width:'100%'}}>
-                <div className="overlay has-fade hide-for-desktop"  style={{color:'white' , width:'100%'}}></div>
-
-                <nav className="flex flex-jc-sb flex-ai-c container container--pall"  style={{color:'white' , width:'100%'}}>
-                    <a href="/" className="header__logo logo">
-                          <img style={{height:'30px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
-                            
-                            <span style={{color:'white'}}><b>Swick</b></span>
-                    </a>
-
-                    <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-
-                    <div className="header__links hide-for-mobile">
-                        <a style={{color:'white'}} href="#">how it works?</a>
-                        <a style={{color:'white'}} href="#">stores</a>
-                        <a style={{color:'white'}} href="#">Contact</a>
-                        <a style={{color:'white'}} href="#" className="btn-red">Login</a>
-                    </div>
-                </nav>
-
-                <div className="header__menu container--px has-fade hide-for-desktop">
-                    <a href="#">how it works?</a>
-                    <a href="#">stores</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Login</a>
-                </div>
-
-                <div className="header__social-icons has-fade hide-for-desktop">
-                    <a href="#">
-                        <i className='bx bxl-facebook-square'></i>
-                    </a>
-                    <a href="#">
-                        <i className='bx bxl-twitter'></i>
-                    </a>
-                </div>
-            </header>
-
             <section className="hero">
                 <div className="container">
                     <div className="hero__image"></div>
@@ -233,48 +193,8 @@ function Main() {
                 </div>
             </section>
 
-            <section className="extension container--pall">
-                <div className="container">
-                    <div className="extension__info container--px">
-                        <h1>Download the extension</h1>
-                        <p>
-                        A clean and simple interface to load your all coupons. Open a new
-                            site and see your coupons load instantly. Try it for free.                        </p>
-                    </div>
-
-                    <div className="extension__browsers-cards">
-                        <div className="extension__card" style={{ border:'4px',borderStyle:'solid' , borderColor:'#ED6322' }}>
-                            <img src="https://k.top4top.io/p_1987t1s2g1.png" alt="Google Chrome Logo"></img>
-                            <div className="card__details">
-                                <h3>Add to Chrome</h3>
-                                <span>Minimum version 62</span>
-                            </div>
-                            <div className="card__separate"></div>
-                            <button type="button" className="card__add-btn">Add & Install Extension</button>
-                        </div>
-
-                        <div className="extension__card" style={{ border:'4px',borderStyle:'solid' , borderColor:'#ED6322' }}>
-                            <img src="https://l.top4top.io/p_1987w0li62.png" alt="Google Chrome Logo"></img>
-                            <div className="card__details">
-                                <h3>Add to Firefox</h3>
-                                <span>Minimum version 55</span>
-                            </div>
-                            <div className="card__separate"></div>
-                            <button type="button" className="card__add-btn">Add & Install Extension</button>
-                        </div>
-
-                        <div className="extension__card" style={{ border:'4px',borderStyle:'solid' , borderColor:'#ED6322' }}>
-                            <img src="https://a.top4top.io/p_19874339l3.png" alt="Google Chrome Logo"></img>
-                            <div className="card__details">
-                                <h3>Add to Opera</h3>
-                                <span>Minimum version 46</span>
-                            </div>
-                            <div className="card__separate"></div>
-                            <button type="button" className="card__add-btn">Add & Install Extension</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Downloadex/>
+            
             <section className="faqs">
                <Stores/>
 
@@ -391,29 +311,7 @@ function Main() {
                 </div>
             </section>
 
-            <footer className="footer">
-                <div className="container container--px">
-                    <div className="footer__left">
-                        <a href="/" className="footer__left--logo logo">
-                        <img style={{height:'30px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
-                            <span><b>Swick</b></span>
-                        </a>
-
-                        <ul className="footer__left--links">
-                            <li><a href="#">how it works?</a></li>
-                            <li><a href="#">stores</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="footer__right">
-                        <div className="footer__right--icons">
-                            <a href="#"><i className='bx bxl-facebook-square'></i></a>
-                            <a href="#"><i className='bx bxl-twitter'></i></a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+           <Footer/>
 
         </div>
         </>
