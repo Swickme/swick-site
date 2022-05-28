@@ -1,8 +1,9 @@
 import React from "react";
-
+import Stores from "./stores/Stores";
 import './main.css'
-
-
+import Navbar from "./navbar/Navbar";
+import Downloadex from "./navbar/Downloadex";
+import Footer from "./footer/Footer";
 
 function Main() {
 
@@ -107,47 +108,18 @@ function Main() {
     };
 
     return (
-        <div>
-            <header className="header">
-                <div className="overlay has-fade hide-for-desktop"></div>
-
-                <nav className="flex flex-jc-sb flex-ai-c container container--pall">
-                    <a href="/" className="header__logo logo">
-                        <i className='bx bxs-bookmark'></i>
-                        <span>Swick</span>
-                    </a>
-
-                    <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-
-                    <div className="header__links hide-for-mobile">
-                        <a href="#">Features</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Contact</a>
-                        <a href="#" className="btn-red">Login</a>
-                    </div>
-                </nav>
-
-                <div className="header__menu container--px has-fade hide-for-desktop">
-                    <a href="#">Features</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Login</a>
-                </div>
-
-                <div className="header__social-icons has-fade hide-for-desktop">
-                    <a href="#">
-                        <i className='bx bxl-facebook-square'></i>
-                    </a>
-                    <a href="#">
-                        <i className='bx bxl-twitter'></i>
-                    </a>
-                </div>
-            </header>
-
+        <>
+        {/* <div style={{ backgroundColor:'#020841' }}>
+       
+                          <img style={{height:'65px' , padding:'10px' , marginTop:'10px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
+                            
+                         <span style={{color:'white' , fontSize:'40px' ,fontFamily:'monospace' }}><b>Swick</b></span>
+                         <span style={{color:'white' , fontSize:'20px' ,fontFamily:'monospace' , marginLeft:'60px'  }}><b>a</b></span>
+                         <span style={{color:'white' , fontSize:'20px' ,fontFamily:'monospace' , marginLeft:'80'  }}><b>b</b></span>
+                         <span style={{color:'white' , fontSize:'20px' ,fontFamily:'monospace' , marginLeft:'600px'  }}><b>c</b></span>
+                 
+        </div> */}
+         <div className="entryClass">
             <section className="hero">
                 <div className="container">
                     <div className="hero__image"></div>
@@ -155,8 +127,8 @@ function Main() {
                     <div className="hero__text container--pall">
                         <h1>A Simple Coupon Manager</h1>
                         <p>
-                            A clean and simple interface to organize your favourite websites. Open a new
-                            browser tab and see your sites load instantly. Try it for free.
+                            A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                         </p>
                         <a href="#" className="primary-btn btn-blue">Get it on Chrome</a>
                         <a href="#" className="primary-btn btn-smoke">Get it on Firefox</a>
@@ -167,10 +139,10 @@ function Main() {
             <section className="features">
                 <div className="container">
                     <div className="features__text container--pall">
-                        <h2>Features</h2>
+                        <h2>how it works?</h2>
                         <p>
-                            Our aim is to make it quick and easy for you to access your favourite websites.
-                            Your bookmarks sync between your devices so you can access them on the go.
+                            Our aim is A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                         </p>
                     </div>
 
@@ -186,8 +158,8 @@ function Main() {
                         <div className="feature__text container--pall">
                             <h3>Bookmark in one click</h3>
                             <p>
-                                Organize your bookmarks however you like. Our simple drag-and-drop interface
-                                gives you complete control over how you manage your favourite sites.
+                                Organize your A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                             </p>
                             <a href="#" className="primary-btn btn-blue">More Info</a>
                         </div>
@@ -199,8 +171,8 @@ function Main() {
                         <div className="feature__text container--pall">
                             <h3>Intelligent Search</h3>
                             <p>
-                                Our powerful search feature will help you find saved sites
-                                in no time at all. No need to trawl through all of your bookmarks.
+                                Our powerful A clean and simple interface to load your all coupons. Open a new
+                            site and see your coupons load instantly. Try it for free.
                             </p>
                             <a href="#" className="primary-btn btn-blue">More Info</a>
                         </div>
@@ -221,51 +193,12 @@ function Main() {
                 </div>
             </section>
 
-            <section className="extension container--pall">
-                <div className="container">
-                    <div className="extension__info container--px">
-                        <h1>Download the extension</h1>
-                        <p>
-                            We’ve got more browsers in the pipeline.
-                            Please do let us know if you’ve
-                            got a favourite you’d like us to prioritize.
-                        </p>
-                    </div>
+            <Downloadex/>
+            
+            <section className="faqs">
+               <Stores/>
 
-                    <div className="extension__browsers-cards">
-                        <div className="extension__card">
-                            <img src="https://k.top4top.io/p_1987t1s2g1.png" alt="Google Chrome Logo"></img>
-                            <div className="card__details">
-                                <h3>Add to Chrome</h3>
-                                <span>Minimum version 62</span>
-                            </div>
-                            <div className="card__separate"></div>
-                            <button type="button" className="card__add-btn">Add & Install Extension</button>
-                        </div>
-
-                        <div className="extension__card">
-                            <img src="https://l.top4top.io/p_1987w0li62.png" alt="Google Chrome Logo"></img>
-                            <div className="card__details">
-                                <h3>Add to Firefox</h3>
-                                <span>Minimum version 55</span>
-                            </div>
-                            <div className="card__separate"></div>
-                            <button type="button" className="card__add-btn">Add & Install Extension</button>
-                        </div>
-
-                        <div className="extension__card">
-                            <img src="https://a.top4top.io/p_19874339l3.png" alt="Google Chrome Logo"></img>
-                            <div className="card__details">
-                                <h3>Add to Opera</h3>
-                                <span>Minimum version 46</span>
-                            </div>
-                            <div className="card__separate"></div>
-                            <button type="button" className="card__add-btn">Add & Install Extension</button>
-                        </div>
-                    </div>
-                </div>
             </section>
-
             <section className="faqs">
                 <div className="container container--pall">
                     <div className="faqs__info">
@@ -378,31 +311,11 @@ function Main() {
                 </div>
             </section>
 
-            <footer className="footer">
-                <div className="container container--px">
-                    <div className="footer__left">
-                        <a href="/" className="footer__left--logo logo">
-                            <i className='bx bxs-bookmark'></i>
-                            <span>bookmark</span>
-                        </a>
-
-                        <ul className="footer__left--links">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="footer__right">
-                        <div className="footer__right--icons">
-                            <a href="#"><i className='bx bxl-facebook-square'></i></a>
-                            <a href="#"><i className='bx bxl-twitter'></i></a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+           <Footer/>
 
         </div>
+        </>
+       
     );
 }
 

@@ -1,9 +1,9 @@
 /* General Styles */
 
 :root {
-    --clr-primary-SoftBlue: hsl(231, 69%, 60%);
+    --clr-primary-SoftBlue: #020841;
     --clr-primary-SoftRed: hsl(0, 94%, 66%);
-    --clr-secondry-VeryDarkBlue: rgba(37, 43, 70, 0.801);
+    --clr-secondry-VeryDarkBlue: rgba(18, 22, 39, 0.801);
     --clr-neutral-White: hsl(0, 0%, 100%);
     --clr-neutral-GrayishBlue: hsl(229, 8%, 60%);
     --clr-neutral-VeryDarkBlue: hsl(229, 31%, 21%);
@@ -19,8 +19,8 @@
   * {
     box-sizing: border-box;
   }
-  
-  body {
+
+  .entryClass{
     margin: 0;
     padding: 0;
     line-height: 1.3;
@@ -29,12 +29,16 @@
     color: var(--clr-neutral-VeryDarkBlue);
   }
   
+  
+  
   body.noscroll {
     overflow: hidden;
   }
   
   .container {
-    max-width: 69.375rem; /* 1110px */
+    /* max-width: 69.375rem;  */
+    max-width: 100%; /* 1110px */
+
     margin: 0 auto;
   }
   /* Classes for Padding */
@@ -98,7 +102,7 @@
   
   /* Buttons */
   a.btn-red {
-    background-color: var(--clr-primary-SoftRed);
+    background-color: #ED6322;
     color: var(--clr-neutral-White);
     padding: 0.5625rem 1.5625rem; /* 9px 25px */
     border-radius: 5px;
@@ -209,6 +213,8 @@
   .header {
     position: relative;
     z-index: 1000;
+    width: 100%;
+    color: white;
   }
   
   .overlay {
@@ -224,9 +230,20 @@
   
   .header nav {
     position: relative;
+    border: 3px solid #ED6322;
+    border-radius: 7px;
+    width: 100%;
+    color: white;
+    background-color:var(--clr-primary-SoftBlue);
     padding-top: 2rem; /* 32px */
     padding-bottom: 2rem; /* 32px */
   }
+  .header nav:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
   
   @media (max-width: 39.9375em) { /* 639px */
     .header.open .header__logo span {
@@ -379,10 +396,14 @@
     position: relative;
     background-image: url(https://c.top4top.io/p_1987fekrs1.png);
     background-repeat: no-repeat;
-    background-size: min(100%, 25.875rem); /* 100% 414px */
+    background-size: min(60%, 15.875rem); /* 100% 414px */
     background-position: right center;
-    min-height: 18.75rem;  /* 300px */
-    margin-left: 1rem;
+    height: 10px;
+    min-height: 10.75rem;  /* 300px */
+    margin-left: 5rem;
+    max-width: 35%;
+    margin-top: 5px;
+    margin-right: 10%;
   }
   
   @media (min-width: 567px) {
@@ -549,13 +570,14 @@
   }
   
   .feature__image { 
-    position: relative;
+    position: absolute;
     background-image: url(https://g.top4top.io/p_1987up0j81.png);
     background-repeat: no-repeat;
-    background-size: min(90%, 25rem); /* 90% => 400px */
+    background-size: max(60%, 25rem); /* 90% => 400px */
     background-position: left center;
-    width: 100%;
-    min-height: 18rem; /* 288px */
+    width: 20%;
+    margin-left: 20%;
+    min-height: 10rem; /* 288px */
   }
   
   .speedy--searching .feature__image {
@@ -979,7 +1001,7 @@
   }
   
   .form__input--submit {
-    background-color: var(--clr-primary-SoftRed);
+    background-color: #ED6322;
     color: var(--clr-neutral-White);
     cursor: pointer;
   }
