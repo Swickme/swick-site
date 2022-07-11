@@ -8,7 +8,8 @@ export default function Footer() {
                 <div className="container container--px">
                     <div className="footer__left">
                         <a href="/" className="footer__left--logo logo">
-                        <img style={{height:'30px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
+                        <img style={{height:'30px'}} src="https://s3.ap-south-1.amazonaws.com/sitewatch.images/swick_final.jpg" 
+                        alt="Swick-Icon" type="png"/>
                             <span><b>Swick</b></span>
                         </a>
 

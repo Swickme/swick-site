@@ -8,9 +8,10 @@ export default function Navbar() {
 
                 <nav className="flex flex-jc-sb flex-ai-c container container--pall"  style={{color:'white' , width:'100%'}}>
                     <a href="/" className="header__logo logo">
-                          <img style={{height:'30px'}} src="https://ekinch-videos.s3.ap-south-1.amazonaws.com/spc.png" alt="Swick-Icon" type="png"/>
+                          <img style={{height:'50px'}} alt="swick"
+                          src="https://s3.ap-south-1.amazonaws.com/sitewatch.images/swick_final.jpg" type="png"/>
                             
-                            <span style={{color:'white' , fontFamily:'Primus-Script'}}><b>swick</b></span>
+                            <span style={{color:'white' , fontSize:'28px'}}><b>  swick</b></span>
                     </a>
 
                     <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">

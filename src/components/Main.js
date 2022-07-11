@@ -4,7 +4,7 @@ import './main.css'
 import Navbar from "./navbar/Navbar";
 import Downloadex from "./navbar/Downloadex";
 import Footer from "./footer/Footer";
-
+ 
 function Main() {
 
     const body = document.querySelector('body');
@@ -130,8 +130,10 @@ function Main() {
                             A clean and simple interface to load your all coupons. Open a new
                             site and see your coupons load instantly. Try it for free.
                         </p>
-                        <a href="#" className="primary-btn btn-blue">Get it on Chrome</a>
-                        <a href="#" className="primary-btn btn-smoke">Get it on Firefox</a>
+                        <a href="https://chrome.google.com/webstore/detail/swickcouponfinder/gdegampmikcjmcpbldekkiipllgacbga" 
+                        className="primary-btn btn-blue">Get it on Chrome</a>
+                        <a href="https://chrome.google.com/webstore/detail/swickcouponfinder/gdegampmikcjmcpbldekkiipllgacbga"
+                         className="primary-btn btn-smoke">Get it on Firefox</a>
                     </div>
                 </div>
             </section>
